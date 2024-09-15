@@ -12,7 +12,7 @@
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "QuizStream/onlinexam/wsgi.py"  
+            "dest": "onlinexam/wsgi.py"  
         }
     ]
 }
