@@ -108,17 +108,6 @@ AUTH_PASSWORD_VALIDATORS = [
 
 
 # Internationalization
-# https://docs.djangoproject.com/en/3.0/topics/i18n/
-
-LANGUAGE_CODE = 'en-us'
-
-TIME_ZONE = 'UTC'
-
-USE_I18N = True
-
-USE_L10N = True
-
-USE_TZ = True
 
 
 # Static files (CSS, JavaScript, Images)
@@ -142,9 +131,4 @@ EMAIL_HOST_PASSWORD = 'ENTER_PASSWORD' # host email password required
 # now sign in with your host gmail account in your browser
 # open following link and turn it ON
 
-# otherwise you will get SMTPAuthenticationError at /contactus
-# this process is required because google blocks apps authentication by default
-EMAIL_RECEIVING_USER = ['to@gmail.com'] # email on which you will receive messages sent from website
-# settings.py
 
-DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
